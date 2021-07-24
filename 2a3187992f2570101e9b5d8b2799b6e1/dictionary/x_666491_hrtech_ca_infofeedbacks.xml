@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Info and Feedbacks" max_length="40" name="x_666491_hrtech_ca_infofeedbacks" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Negative feedbacks" max_length="4000" name="negative_feedbacks" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Objectives" max_length="40" name="objectives" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Architecture" value="architecture"/>
+                <element inactive_on_update="false" label="Back-end dev" value="backend_dev"/>
+                <element inactive_on_update="false" label="Devops" value="devops"/>
+                <element inactive_on_update="false" label="Front-end dev" value="frontend_dev"/>
+                <element inactive_on_update="false" label="Full-stack dev" value="fullstack_dev"/>
+                <element inactive_on_update="false" label="Mobile dev" value="mobile_dev"/>
+                <element inactive_on_update="false" label="RPA" value="rpa"/>
+                <element inactive_on_update="false" label="User Experience" value="ux"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Positive feedbacks" max_length="4000" name="positive_feedbacks" type="journal"/>
+        <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+    </element>
+</database>

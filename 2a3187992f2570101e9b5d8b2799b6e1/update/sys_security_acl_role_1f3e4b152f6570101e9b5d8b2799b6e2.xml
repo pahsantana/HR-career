@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 01:19:34</sys_created_on>
+        <sys_id>1f3e4b152f6570101e9b5d8b2799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_666491_hrtech_ca_infofeedbacks.x_666491_hrtech_ca.user</sys_name>
+        <sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope>
+        <sys_security_acl display_value="x_666491_hrtech_ca_infofeedbacks">933e4b152f6570101e9b5d8b2799b6e0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1f3e4b152f6570101e9b5d8b2799b6e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 01:19:34</sys_updated_on>
+        <sys_user_role display_value="x_666491_hrtech_ca.user" name="x_666491_hrtech_ca.user">59b2c3192fe170101e9b5d8b2799b6e0</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

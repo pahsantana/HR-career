@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="objectives" table="x_666491_hrtech_ca_infofeedbacks" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>objectives</element>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_id>da3e4b152f6570101e9b5d8b2799b652</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>objectives</sys_name>
+            <sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope>
+            <sys_update_name>sys_choice_x_666491_hrtech_ca_infofeedbacks_objectives</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Architecture</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>523e4b152f6570101e9b5d8b2799b662</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>architecture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Back-end dev</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a3e4b152f6570101e9b5d8b2799b65a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>backend_dev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Devops</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e3e4b152f6570101e9b5d8b2799b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>devops</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Front-end dev</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>523e4b152f6570101e9b5d8b2799b65d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>frontend_dev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Full-stack dev</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>523e4b152f6570101e9b5d8b2799b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>fullstack_dev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile dev</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a3e4b152f6570101e9b5d8b2799b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>mobile_dev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPA</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a3e4b152f6570101e9b5d8b2799b664</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>rpa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>objectives</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Experience</label>
+            <language>en</language>
+            <name>x_666491_hrtech_ca_infofeedbacks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 01:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a3e4b152f6570101e9b5d8b2799b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 01:19:30</sys_updated_on>
+            <value>ux</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
