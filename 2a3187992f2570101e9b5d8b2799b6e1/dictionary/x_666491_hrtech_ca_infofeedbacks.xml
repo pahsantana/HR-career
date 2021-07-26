@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Info and Feedbacks" max_length="40" name="x_666491_hrtech_ca_infofeedbacks" type="collection">
-        <element label="Age" max_length="40" name="age" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Negative feedbacks" max_length="4000" name="negative_feedbacks" type="journal"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Objectives" max_length="40" name="objectives" type="choice">
+    <element label="Info and Feedbacks" max_length="40" name="x_666491_hrtech_ca_infofeedbacks" sizeclass="1" type="collection">
+        <element label="Age" mandatory="true" max_length="40" name="age" type="integer"/>
+        <element choice="3" default="inspired" label="Humor" mandatory="true" max_length="40" name="humor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inspired" sequence="0" value="inspired"/>
+                <element inactive_on_update="false" label="Confident" sequence="1" value="confident"/>
+                <element inactive_on_update="false" label="Cared for" sequence="2" value="cared for"/>
+                <element inactive_on_update="false" label="Motivated" sequence="3" value="motivated"/>
+                <element inactive_on_update="false" label="Okay" sequence="4" value="okay"/>
+                <element inactive_on_update="false" label="Stuck" sequence="5" value="stuck"/>
+                <element inactive_on_update="false" label="Unisnpired" sequence="6" value="unisnpired"/>
+                <element inactive_on_update="false" label="Impatient" sequence="7" value="impatient"/>
+                <element inactive_on_update="false" label="Swamped" sequence="8" value="swamped"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Negative feedbacks" mandatory="true" max_length="4000" name="negative_feedbacks" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="architecture" label="Objectives" mandatory="true" max_length="40" name="objectives" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Architecture" value="architecture"/>
                 <element inactive_on_update="false" label="Back-end dev" value="backend_dev"/>
@@ -14,8 +27,18 @@
                 <element inactive_on_update="false" label="User Experience" value="ux"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Positive feedbacks" max_length="4000" name="positive_feedbacks" type="journal"/>
-        <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Positive feedbacks" mandatory="true" max_length="4000" name="positive_feedbacks" type="journal"/>
+        <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element choice="3" default="closed" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive="true" inactive_on_update="true" label="Pendant" sequence="0" value="pendant"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
+        <element label="When published" mandatory="true" max_length="40" name="when_published" type="glide_date"/>
         <index name="index">
             <element name="requester"/>
         </index>
