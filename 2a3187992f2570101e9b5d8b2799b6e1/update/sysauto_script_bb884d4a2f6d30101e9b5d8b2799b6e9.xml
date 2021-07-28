@@ -4,7 +4,7 @@
         <business_calendar/>
         <condition/>
         <conditional>false</conditional>
-        <entered_time>1970-01-01 00:02:00</entered_time>
+        <entered_time>1970-01-01 16:00:00</entered_time>
         <name>Find Tasks Due Soon.</name>
         <offset/>
         <offset_type/>
@@ -14,16 +14,16 @@
         <run_dayofweek>1</run_dayofweek>
         <run_period/>
         <run_start>2021-07-25 23:30:58</run_start>
-        <run_time>1970-01-01 00:02:00</run_time>
+        <run_time>1970-01-01 16:00:00</run_time>
         <run_type>daily</run_type>
         <script><![CDATA[// Get today's time and date
 var rightNow = new GlideDateTime();
 // 24 hours from now.  Only return records that do not have
 // a State field value of Closed.
 var dueSoon = new GlideRecord('x_666491_hrtech_ca_infofeedbacks');
-dueSoon.addQuery('due_date','>=',rightNow);
-dueSoon.addQuery('due_date','<',gs.hoursAgo(-24));
-dueSoon.addQuery('state','!=',3);
+dueSoon.addQuery('when_published','>=',rightNow);
+dueSoon.addQuery('when_published','<',gs.hoursAgo(-24));
+dueSoon.addQuery('status','!=',3);
 
 dueSoon.query();
 // Write a log message for each due within 24 hours from now
@@ -35,14 +35,14 @@ while(dueSoon.next()){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-25 23:33:45</sys_created_on>
         <sys_id>bb884d4a2f6d30101e9b5d8b2799b6e9</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Find Tasks Due Soon.</sys_name>
         <sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package>
         <sys_policy/>
         <sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope>
         <sys_update_name>sysauto_script_bb884d4a2f6d30101e9b5d8b2799b6e9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-26 01:06:13</sys_updated_on>
+        <sys_updated_on>2021-07-28 04:12:41</sys_updated_on>
         <time_zone>floating</time_zone>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

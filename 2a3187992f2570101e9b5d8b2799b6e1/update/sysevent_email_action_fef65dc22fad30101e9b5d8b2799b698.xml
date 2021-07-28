@@ -42,7 +42,7 @@
 <p><strong>Positive feedbacks: ${positive_feedbacks}<br /></strong></p>
 <p><strong>Negative feedbacks: ${negative_feedbacks}<br /></strong></p>
 <p><strong>Please complete this task as soon as possible. </strong></p>
-<p><strong>Click here to view the NeedIt Task record: ${URI_REF} </strong></p>]]></message_html>
+<p><strong>Click here to view the HR-career feedback record: ${URI_REF} </strong></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Find Tasks Due soon</name>
@@ -64,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fef65dc22fad30101e9b5d8b2799b698</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Find Tasks Due soon</sys_name>
         <sys_overrides/>
         <sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package>
@@ -72,7 +72,7 @@
         <sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope>
         <sys_update_name>sysevent_email_action_fef65dc22fad30101e9b5d8b2799b698</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-26 00:58:37</sys_updated_on>
+        <sys_updated_on>2021-07-28 02:59:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
