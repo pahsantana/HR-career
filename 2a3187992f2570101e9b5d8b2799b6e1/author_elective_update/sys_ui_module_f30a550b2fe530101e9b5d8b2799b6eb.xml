@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="HRtech - career">e4621bbe2f6130101e9b5d8b2799b6d5</application>
+        <filter/>
+        <name>(empty)</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-29 03:21:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f30a550b2fe530101e9b5d8b2799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(empty)</sys_name>
+        <sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope>
+        <sys_update_name>sys_ui_module_f30a550b2fe530101e9b5d8b2799b6eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-29 03:21:21</sys_updated_on>
+        <table>x_666491_hrtech_ca__empty_</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</application>
+        <file_path/>
+        <instance_id>c8cf2ae9db17bf883050ac44d4961905</instance_id>
+        <instance_name>dev91822</instance_name>
+        <name>sys_ui_module_f30a550b2fe530101e9b5d8b2799b6eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HRtech - career">e4621bbe2f6130101e9b5d8b2799b6d5</application><filter/><name>(empty)</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-29 03:21:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f30a550b2fe530101e9b5d8b2799b6eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>(empty)</sys_name><sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package><sys_policy/><sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope><sys_update_name>sys_ui_module_f30a550b2fe530101e9b5d8b2799b6eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-29 03:21:21</sys_updated_on><table>x_666491_hrtech_ca__empty_</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-515101085</payload_hash>
+        <record_name>(empty)</record_name>
+        <reverted_from/>
+        <source>5164d7d52f6570101e9b5d8b2799b690</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-29 03:21:21</sys_created_on>
+        <sys_id>f70a550b2fe530101e9b5d8b2799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17af047e4c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-29 03:21:21</sys_updated_on>
+        <type>Module</type>
+        <update_guid>330a550b95e53010e5f10504a46edced</update_guid>
+        <update_guid_history>330a550b95e53010e5f10504a46edced:-515101085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-29 03:22:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>a4c4267ff20c4ee3ba34e684d9b00619</sys_id>
+        <sys_metadata>f30a550b2fe530101e9b5d8b2799b6eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(empty)</sys_name>
+        <sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope>
+        <sys_scope_delete display_value="">5bd13c5b573740829a812f8d56eb86b1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_f30a550b2fe530101e9b5d8b2799b6eb</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_f30a550b2fe530101e9b5d8b2799b6eb">f70a550b2fe530101e9b5d8b2799b6ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-29 03:22:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

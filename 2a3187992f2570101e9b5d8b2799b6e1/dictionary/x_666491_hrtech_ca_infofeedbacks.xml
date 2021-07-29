@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Info and Feedbacks" max_length="40" name="x_666491_hrtech_ca_infofeedbacks" sizeclass="6" type="collection">
         <element label="Age" mandatory="true" max_length="40" name="age" type="integer"/>
+        <element label="Goals" mandatory="true" max_length="15" name="goals" type="percent_complete"/>
         <element choice="3" default="inspired" label="Humor" mandatory="true" max_length="40" name="humor" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Inspired" sequence="0" value="inspired"/>
@@ -15,6 +16,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Negative feedbacks" mandatory="true" max_length="4000" name="negative_feedbacks" type="journal"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="architecture" label="Objectives" mandatory="true" max_length="40" name="objectives" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Architecture" value="architecture"/>
@@ -29,7 +31,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Positive feedbacks" mandatory="true" max_length="4000" name="positive_feedbacks" type="journal"/>
         <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
-        <element choice="3" default="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+        <element choice="3" default="open" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
                 <element inactive="true" inactive_on_update="true" label="Pendant" sequence="0" value="pendant"/>

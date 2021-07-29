@@ -35,9 +35,9 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>&nbsp;<strong>Dear ${requester<br />.first_name},</strong></p>
+        <message_html><![CDATA[<p><strong>Dear ${requester},<br /></strong></p>
 <p><strong>Due soon task is assigned to you:</strong></p>
-<p><strong>Status: ${status}<br /><br /></strong></p>
+<p><strong>Status: ${status}<br /></strong></p>
 <p><strong>Humor: ${humor}<br /></strong></p>
 <p><strong>Positive feedbacks: ${positive_feedbacks}<br /></strong></p>
 <p><strong>Negative feedbacks: ${negative_feedbacks}<br /></strong></p>
@@ -64,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fef65dc22fad30101e9b5d8b2799b698</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Find Tasks Due soon</sys_name>
         <sys_overrides/>
         <sys_package display_value="HRtech - career" source="x_666491_hrtech_ca">2a3187992f2570101e9b5d8b2799b6e1</sys_package>
@@ -72,7 +72,7 @@
         <sys_scope display_value="HRtech - career">2a3187992f2570101e9b5d8b2799b6e1</sys_scope>
         <sys_update_name>sysevent_email_action_fef65dc22fad30101e9b5d8b2799b698</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-28 02:59:03</sys_updated_on>
+        <sys_updated_on>2021-07-29 04:03:41</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
